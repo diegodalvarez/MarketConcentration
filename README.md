@@ -4,10 +4,10 @@ Recently (at the time of this Readme 06/25/2023 18:31) there has been a noticeab
 Ultimately it is found that smaller cap index members tend to “catch-up” to their larger cap members historically. 
 
 Examining the difference between SPX cap-weighted vs. equal weighted returns
-![image](https://github.com/diegodalvarez/MarketConcentration/assets/48641554/58f9ed2d-ef0e-4ca8-bfd7-749abcf9d863)
+![image](https://github.com/diegodalvarez/MarketConcentration/assets/48641554/e80c7ea5-df47-4430-aa35-80f47e5cc64a)
 
 And their distributions
-![image](https://github.com/diegodalvarez/MarketConcentration/assets/48641554/8b37f012-1213-4de9-89d2-30da7ee84147)
+![image](https://github.com/diegodalvarez/MarketConcentration/assets/48641554/7a92b698-7d1f-433d-a0fa-05fc661d7ca7)
 
 Running a regression between the returns spread and Russell 1000, 2000, and 3000
 ![image](https://github.com/diegodalvarez/MarketConcentration/assets/48641554/e5583e05-f7f3-468d-9ee7-e8b81ab89ef4)
