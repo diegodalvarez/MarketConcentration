@@ -23,3 +23,4 @@ In terms of factor space there are two directions to look into the large cap vs.
 # Todo
 1. Extend to international Equities
 2. Adding in AR model
+3. Analyze alphas build L/S model and then build Long-only model
