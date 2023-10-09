@@ -51,6 +51,7 @@ def collect_data():
     parent_path = os.path.abspath(os.path.join(os.getcwd(), os.pardir))
     data_path = os.path.join(parent_path, "data")
     tickers_path = os.path.join(data_path, "tickers.csv")
+    prices_path = os.path.join(data_path, "prices.parquet")
     
     tickers = pd.read_csv(tickers_path).ticker.dropna().drop_duplicates().to_list()
     df = (yf.download(
@@ -65,7 +66,7 @@ def collect_data():
     print("Starting to Write File")
     
     df.to_parquet(
-        path = "prices.parquet",
+        path = prices_path,
         engine = "pyarrow")
     
     print("Done Writing File")
