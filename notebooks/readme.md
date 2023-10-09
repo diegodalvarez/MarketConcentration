@@ -22,3 +22,5 @@ To do
 2. Sharpe, alpha, beta
 3. L/S
 4. drawdown & risk limits
+5. static z-score exit
+6. dynamic z-score
