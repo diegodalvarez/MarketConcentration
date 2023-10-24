@@ -25,3 +25,15 @@ The same approach was used with international equities measuring the spread betw
 ![image](https://github.com/diegodalvarez/MarketConcentration/assets/48641554/3242367c-a5e5-4f86-ac00-ccee02bebe0f)
 ![image](https://github.com/diegodalvarez/MarketConcentration/assets/48641554/f368515e-3bd1-440a-be3e-694b47b1bbbc)
 
+# Simple Backtesting Results
+If we use the z-score as a buy/sell indicator for the index we can play back the results. Although the results make money they don't necessarily outperform the index. 
+![image](https://github.com/diegodalvarez/MarketConcentration/assets/48641554/7f81d3cc-d497-4b1a-8008-63033c0aff8d)
+
+# Z-Score Window approach
+If we use a simple z-score approach where we buy a Z-Score greater than 2 hold for 3 months. We get the following
+![image](https://github.com/diegodalvarez/MarketConcentration/assets/48641554/a1fb20f5-9537-4d1d-9504-17c4db573524)
+![image](https://github.com/diegodalvarez/MarketConcentration/assets/48641554/502f018f-512c-4f0a-a656-716f8f783ac3)
+![image](https://github.com/diegodalvarez/MarketConcentration/assets/48641554/a113fee6-b954-4fd0-ac04-3d9d44e7111a)
+Although the returns do well, they don't happen frequently. One could use it to add exposure. But again the indices don't outperform SPX. 
+![image](https://github.com/diegodalvarez/MarketConcentration/assets/48641554/ded39701-8f75-452a-846b-cb56f36931e4)
+
