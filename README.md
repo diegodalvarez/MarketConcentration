@@ -20,7 +20,8 @@ It is somewhat clear that there is negative linear relationship between spread o
 I'd like to further examin this via rolling regression.
 In terms of factor space there are two directions to look into the large cap vs. small cap factors. A possible idea would be to use rolling returns (and later rolling OLS variables) for each factor and then comparing a lagged small caps to large cap, since we expect the small caps to "catch-up" to the large caps. One of the problems with this model is that it is very easy to overfit, given that we would need to find a suitable period to lag. Although the results from this model may be promising and we can enhance the model with latent-factor models, which opens up the world of many other more complex models, we can easily overfit our original data, and greatly overfit our latent-model factor.
 
-# Todo
-1. Extend to international Equities
-2. Adding in AR model
-3. Analyze alphas build L/S model and then build Long-only model
+# International Equities
+The same approach was used with international equities measuring the spread between equal weight and market weight indices. Unfortuantely via Regression the relationship is less pronounced. 
+![image](https://github.com/diegodalvarez/MarketConcentration/assets/48641554/3242367c-a5e5-4f86-ac00-ccee02bebe0f)
+![image](https://github.com/diegodalvarez/MarketConcentration/assets/48641554/f368515e-3bd1-440a-be3e-694b47b1bbbc)
+
