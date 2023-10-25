@@ -28,11 +28,11 @@ class DataManager():
             drop(columns = ["variable_0"]).
             rename(columns = {"variable_1": "ticker"}).
             pivot(index = "Date", columns = "ticker", values = "value").
-            pct_change(periods = 3 * 30).
+            pct_change(periods = lookback_window).
             dropna().
             assign(
                 spread_diff = lambda x: x.SPY - x.RSP,
-                z_score = lambda x: (x.spread_diff - x.spread_diff.rolling(window = 30 * 3).mean()) / x.spread_diff.rolling(window = 30 * 3).std())
+                z_score = lambda x: (x.spread_diff - x.spread_diff.rolling(window = lookback_window).mean()) / x.spread_diff.rolling(window = lookback_window).std())
             [["spread_diff", "z_score"]])
         
         return df_spread
